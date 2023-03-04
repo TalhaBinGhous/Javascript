@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function convert(){
+        var k=document.getElementById('kg').value;
+        var Pounds=k*2.2044;
+        var milligram=k*1000000;
+        var ton=k*0.0011023;
+        var Ounce=k*35.274;
+
+        var p1=document.getElementById('p').value=Pounds;
+        var ml1=document.getElementById('mg').value=milligram;
+        var t1=document.getElementById('t').value=ton;
+        var o1=document.getElementById('o').value=Ounce;
+    }
+</script>
+<body>
+    <table border="50px">
+        <tr>
+        <th colspan="3">weight converter</th>    
+</tr>
+<tr>
+    <td>KG</td>
+    <td><input type="text" name="" id="kg"></td>
+   <td rowspan="5"><input type="button" value="Convert" onclick="convert()"></td> 
+</tr>
+<tr>
+    <td>Pounds</td>
+    <td><input type="text" name="" id="p"></td>
+</tr>
+<tr>
+    <td>Ton</td>
+    <td><input type="text" name="" id="t"></td>
+</tr>
+<tr>
+    <td>Ounce</td>
+    <td><input type="text" name="" id="o"></td>
+</tr>
+<tr>
+    <td>milligram</td>
+    <td><input type="text" name="" id="mg"></td>
+</tr>
+    </table>
+</body>
+</html>

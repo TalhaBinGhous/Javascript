@@ -1,0 +1,5 @@
+Task 1:
+display table using prompt value.
+
+Task 2:
+create calculator using prompt in which user select operator.

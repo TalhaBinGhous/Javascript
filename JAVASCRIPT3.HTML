@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<script>
+    function validation(){
+        var a = document.getElementById('un').value;
+        var b = document.getElementById('pass').value;
+        if(a== 'bilal' && b== '1234'){
+alert('successfully login...!');
+        }
+        else{
+alert('incorrect username or password');
+        }
+    }
+</script>
+<body>
+    <label for="">User name</label>
+    <input type="text" name="" id="un">
+    <label for="">Password</label>
+    <input type="password" name="" id="pass">
+    <input type="button" value="Submit" onclick="validation()">
+</body>
+</html>
